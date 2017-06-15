@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="247.0" prefWidth="340.0">
+         <children>
+            <Button layoutX="96.0" layoutY="171.0" mnemonicParsing="false" onAction="#tikrinti" text="Tikrinti" />
+            <TextField fx:id="input" layoutX="96.0" layoutY="90.0" promptText="Iveskite skaiciu" />
+            <Label fx:id="text" layoutX="95.0" layoutY="48.0" text="Iveskite skaiciu nuo 1 iki 10 " />
+            <Label fx:id="isvedimas" layoutX="94.0" layoutY="124.0" prefHeight="17.0" prefWidth="149.0" />
+            <Button fx:id="end" layoutX="189.0" layoutY="171.0" mnemonicParsing="false" onAction="#baigti" text="Baigti" />
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
